@@ -1,0 +1,16 @@
+[project]
+name = "synapse-notes"
+version = "0.1.0"
+description = "A Django app to manage notes and tasks"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "django>=5.1.4",
+    "djangorestframework>=3.15.2",
+    "neo4j>=5.27.0",
+    "pytest-django>=4.9.0",
+    "spacy>=3.8.3",
+]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "synapsenotes.settings"
