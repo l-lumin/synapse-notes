@@ -1,1 +1,8 @@
-site_name: My Docs
+site_name: Synapse Notes
+theme:
+  name: material
+  palette:
+    primary: pink
+    accent: indigo
+nav:
+  - Home: index.md
